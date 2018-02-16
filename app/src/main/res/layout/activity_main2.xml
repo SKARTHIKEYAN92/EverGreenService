@@ -1,0 +1,95 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/ever2"
+    tools:context="com.gsk.www.evergreen.Main2Activity">
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#87ceeb"
+        android:minHeight="60dip"
+        android:text="PLEASE SELECT YOUR SERVICE"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="60dip"
+        android:text="MAIN PAGE"
+        android:background="#FFFF00"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextView02"
+        android:background="#008000"
+        android:minHeight="60dip"
+        android:text="WELCOME TO EVERGREEN SERVICE "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="152dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/TextView03"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:background="#FFC0CB"
+        android:text="About  us" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="152dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/Button1"
+        android:layout_below="@+id/Button1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="12dp"
+        android:background="#FFC0CB"
+        android:text="Service " />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="152dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/Button2"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:background="#FFC0CB"
+        android:text="Charges  " />
+
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="152dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/TextView01"
+        android:layout_alignStart="@+id/Button5"
+        android:layout_gravity="center_vertical"
+        android:background="#FFC0CB"
+        android:text="Contact us" />
+
+    <Button
+        android:id="@+id/Button5"
+        android:layout_width="152dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/Button4"
+        android:layout_alignStart="@+id/Button3"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="16dp"
+        android:background="#FFC0CB"
+        android:text="Services Link" />
+</RelativeLayout>
+

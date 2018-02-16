@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plain"
+    tools:context="com.gsk.www.evergreen.Main5Activity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:text="CHARGES"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:text="Dear Client we are done the Work New Gst Registration,GST Return Filing , E-WAY Bill Process,HSN Code Details,DGFT New IEC Registration,Amendment in IEC,Import Zero Rated EPCG License Process,Export Related MEIS License Apply to Sales ,IN IECGATE Re-Transmitt the Shipping Bills,In Dic get GENSET Subsidy,Capital Subsidy,GST Refund all these services we are Fast following with less affordable cost. "
+        android:textColor="@color/colorPrimary"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:text="MAIN PAGE"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="104dp" />
+</RelativeLayout>
+

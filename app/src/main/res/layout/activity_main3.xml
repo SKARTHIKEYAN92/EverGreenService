@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gsk.www.evergreen.Aboutus">
+
+    <TextView
+        android:id="@+id/tvs1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/plain"
+        android:text="About us"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imv1"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv"
+        android:background="@drawable/ever3" />
+
+    <TextView
+        android:id="@+id/tvs2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imv1"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/clear"
+        android:text="Hello this is Evergreen Services , We are Done Account Relalted Work,GST Work,GST E-Way Bill Work,DGFT Work,Income Tax Work,Ice Gate Works and then following Export Refund Process in State Tax and Central Excise Office and then etc. "
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/plain"
+        android:text="Go to Main Page"/>
+</RelativeLayout>
