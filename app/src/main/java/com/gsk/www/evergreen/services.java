@@ -36,7 +36,6 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent a = new Intent(Intent.ACTION_VIEW, Uri.parse ("https://quickbooks.intuit.com/in/resources/gst-center/file-gst-returns/"));
                 startActivity (a);
-                finish ();
             }
         });
 
@@ -45,7 +44,6 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent b = new Intent (Intent.ACTION_VIEW,Uri.parse ("https://cleartax.in/s/eway-bill-gst-rules-compliance"));
                 startActivity (b);
-                finish ();
             }
         });
         btns3.setOnClickListener (new View.OnClickListener () {
@@ -53,7 +51,6 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent c = new Intent (Intent.ACTION_VIEW,Uri.parse ("https://www.profitbooks.net/what-is-hsn-code-under-gst/"));
                 startActivity (c);
-                finish ();
             }
         });
 
@@ -62,7 +59,7 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent d = new Intent (Intent.ACTION_VIEW,Uri.parse ("http://164.100.128.144:8100/CRS_NEW/"));
                 startActivity (d);
-                finish ();
+                    
             }
         });
 
@@ -71,7 +68,6 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent e = new Intent (Intent.ACTION_VIEW,Uri.parse ("https://www.icegate.gov.in/expimport.html/"));
                 startActivity (e);
-                finish ();
             }
         });
 
@@ -80,7 +76,6 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent f = new Intent (Intent.ACTION_VIEW,Uri.parse ("https://cleartax.in/s/gst-payments-and-refunds"));
                 startActivity (f);
-                finish ();
             }
         });
 
@@ -89,7 +84,6 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent g = new Intent (Intent.ACTION_VIEW,Uri.parse ("https://incometaxindiaefiling.gov.in/downloads/schema?lang=eng"));
                 startActivity (g);
-                finish ();
             }
         });
         btns8.setOnClickListener (new View.OnClickListener () {
@@ -97,7 +91,6 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent h = new Intent (Intent.ACTION_VIEW,Uri.parse ("http://www.cbec.gov.in/htdocs-cbec/whoweare/whoweare"));
                 startActivity (h);
-                finish ();
             }
         });
         btns9.setOnClickListener (new View.OnClickListener () {
@@ -105,7 +98,6 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent (Intent.ACTION_VIEW,Uri.parse ("https://udyogaadhaar.gov.in/UA/UAM_Registration.aspx"));
                 startActivity (i);
-                finish ();
             }
         });
         btns10.setOnClickListener (new View.OnClickListener () {
@@ -113,14 +105,12 @@ public class services extends AppCompatActivity {
             public void onClick(View view) {
                 Intent j = new Intent (Intent.ACTION_VIEW,Uri.parse ("http://www.aepcindia.com/node"));
                 startActivity (j);
-                finish ();
             }
         });
         btns11.setOnClickListener (new View.OnClickListener () {
             public void onClick(View view) {
                 Intent k = new Intent (services.this,Main2Activity.class);
                 startActivity (k);
-                finish ();
             }
         });
 
