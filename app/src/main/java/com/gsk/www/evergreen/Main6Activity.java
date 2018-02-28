@@ -29,7 +29,6 @@ public class Main6Activity extends AppCompatActivity {
 
                 Intent myIntent = new Intent (Main6Activity.this,Main2Activity.class);
                 startActivity (myIntent);
-                finish ();
 
             }
         });
