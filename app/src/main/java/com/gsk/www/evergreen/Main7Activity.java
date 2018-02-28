@@ -37,7 +37,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent a = new Intent (Intent.ACTION_VIEW, Uri.parse ("https://www.gst.gov.in/"));
                 startActivity (a);
-                finish ();
             }
         });
 
@@ -46,7 +45,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent b = new Intent (Intent.ACTION_VIEW, Uri.parse ("http://164.100.80.180/ewbnat9/"));
                 startActivity (b);
-                finish ();
             }
         });
         btns3.setOnClickListener (new View.OnClickListener () {
@@ -54,7 +52,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent c = new Intent (Intent.ACTION_VIEW, Uri.parse ("https://cleartax.in/s/gst-hsn-lookup"));
                 startActivity (c);
-                finish ();
             }
         });
 
@@ -63,7 +60,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent d = new Intent (Intent.ACTION_VIEW, Uri.parse ("http://dgft.gov.in/"));
                 startActivity (d);
-                finish ();
             }
         });
 
@@ -72,7 +68,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent e = new Intent (Intent.ACTION_VIEW, Uri.parse ("https://icegate.gov.in/"));
                 startActivity (e);
-                finish ();
             }
         });
 
@@ -81,7 +76,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent f = new Intent (Intent.ACTION_VIEW, Uri.parse ("https://ctd.tn.gov.in/Portal/"));
                 startActivity (f);
-                finish ();
             }
         });
 
@@ -90,7 +84,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent g = new Intent (Intent.ACTION_VIEW, Uri.parse ("http://incometaxindiaefiling.gov.in/home"));
                 startActivity (g);
-                finish ();
             }
         });
         btns8.setOnClickListener (new View.OnClickListener () {
@@ -98,7 +91,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent h = new Intent (Intent.ACTION_VIEW, Uri.parse ("http://www.cbec.gov.in/"));
                 startActivity (h);
-                finish ();
             }
         });
         btns9.setOnClickListener (new View.OnClickListener () {
@@ -106,7 +98,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent (Intent.ACTION_VIEW, Uri.parse ("https://udyogaadhaar.gov.in/UA/UAM_Registration.aspx"));
                 startActivity (i);
-                finish ();
             }
         });
         btns10.setOnClickListener (new View.OnClickListener () {
@@ -114,7 +105,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent j = new Intent (Intent.ACTION_VIEW, Uri.parse ("http://www.aepcindia.com/node"));
                 startActivity (j);
-                finish ();
             }
         });
 
@@ -122,7 +112,6 @@ public class Main7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent k = new Intent (Main7Activity.this,Main2Activity.class);
                 startActivity (k);
-                finish ();
             }
         });
     }
