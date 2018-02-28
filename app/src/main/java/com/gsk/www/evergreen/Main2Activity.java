@@ -31,7 +31,6 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent2 = new Intent (Main2Activity.this,Aboutus.class);
                 startActivity (myIntent2);
-                finish ();
             }
 
         });
@@ -41,7 +40,6 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent3 =new Intent(Main2Activity.this,services.class);
                 startActivity (myIntent3);
-                finish ();
             }
         });
 
@@ -51,7 +49,6 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent4 =new Intent(Main2Activity.this,Main5Activity.class);
                 startActivity (myIntent4);
-                finish ();
             }
         });
 
@@ -60,7 +57,6 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myInt5 =new Intent(Main2Activity.this,Main6Activity.class);
                 startActivity (myInt5);
-                finish ();
             }
         });
         btn5.setOnClickListener (new View.OnClickListener () {
@@ -68,7 +64,6 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent6 =new Intent(Main2Activity.this,Main7Activity.class);
                 startActivity (myIntent6);
-                finish ();
             }
         });
 
