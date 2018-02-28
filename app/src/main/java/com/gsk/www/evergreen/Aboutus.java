@@ -28,7 +28,6 @@ public class Aboutus extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent7 = new Intent(Aboutus.this,Main2Activity.class);
                 startActivity (myIntent7);
-                finish ();
             }
         });
     }
